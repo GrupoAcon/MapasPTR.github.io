@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+html{
+    background: url(./img/F3500.jpg);
+    background-size: 100% 180%; 
+}
 
 .container{
     /* display: grid;
