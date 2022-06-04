@@ -141,7 +141,7 @@ ReactDOM.render(
         <Avatar id={44} name={<a className="lt" id={44} href="./lotes-PTR/44.pdf"  target="_blank">44</a> } />
         <Avatar id={45} name={<a className="lt" id={45} href="./lotes-PTR/45.pdf"  target="_blank">45</a>} />
         <Avatar id={46} name={<a className="lt" id={46} href="./lotes-PTR/46.pdf"  target="_blank">46</a>} />
-        <Avatar id={47} name={<a className="lt" id={47} href="./lotes-PTR/46.pdf"  target="_blank">47</a>} />
+        <Avatar id={47} name={<a className="lt" id={47} href="./lotes-PTR/47.pdf"  target="_blank">47</a>} />
         <Avatar id={48} name={<a className="lt" id={48} href="./lotes-PTR/48.pdf"  target="_blank"> 48</a>} />
 
         
