@@ -3,7 +3,7 @@ const root = ReactDOM.createRoot(
 
 	function tick(){
 		const date = (<p>{new Date().toLocaleDateString()}</p>)
-		const logo = "./img/"
+		const logo = "./img/logotrasp.png"
 		
 		const tropicales = `./pdfs/tropical.html`
 		const st_rosa = `./pdfs/st-rosa.html`
