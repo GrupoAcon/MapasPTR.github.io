@@ -43,7 +43,7 @@ const root = ReactDOM.createRoot(
 				
 				<div className="example">
 					<div>
-						<i><h4>Ejemplos de uso</h4></i>
+						<i><h4></h4></i>
 					</div>
 
 					<div className="help">
