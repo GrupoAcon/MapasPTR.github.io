@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+#root{
+    background: rgba(53, 52, 52, 0.267);
+    padding-bottom: 100px;
+    padding-top: 1px;
+}
+body{
+    background: url(../img/piñaf.png) center no-repeat;
+    /* background-size:;  */
+    height: 600px;
+}
+
+.hed{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1, 1fr));
+    margin-top: 2rem;
+}
+.hed img{
+    /* width: 450px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: auto;
+    width: 90%;
+}
+.item{
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 2rem;
+
+
+}
+.item a{
+    border-radius: 10px;
+    /* background: rgba(78, 78, 78, 0.589); */
+    background: rgba(0, 0, 0, 0.377);
+    margin: 0.6rem auto 0 auto;
+    padding:1rem 5rem;
+    width: 88px;
+    color: white;
+    /* border: 2px double rgb(206, 206, 206);  */
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    
+}
+
+
+.dateHoy {
+    color: rgb(236, 236, 236);
+   margin: auto;
+   justify-content: center;
+   display: flex;
+   text-align: center;
+    
+}
+.dateHoy p{
+    background: rgba(123, 123, 123, 0.286);
+    width: 100px;
+    border-radius: 60px;
+}
+
+.mpPTR{
+    color: rgb(49, 50, 49);
+    text-align: center;
+    font-weight: 800;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.mpPTR h2{
+    margin: auto;
+    color: rgb(35, 118, 94);
+    font-style: italic;
+    background: whitesmoke;
+    border-radius: 30px;
+    width: 12rem;
+}
+
+
+
+.example{
+    margin-top: 6.5rem;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.help{
+    margin-top: 2rem;
+    padding: 2rem  0rem;
+    background: rgba(160, 160, 121, 0.384);
+}
+.help b {
+    margin-top: 1rem;
+}
+.help pre{
+    margin: 1rem 0 1rem 0;
+}

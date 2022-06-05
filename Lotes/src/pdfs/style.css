@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&display=swap');
+/* html{
+    background: url(./img/flor.jpg) no-repeat center;
+    background-size: 1090px 950px;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#root{
+    background: rgba(53, 52, 52, 0.5);
+    padding-bottom: 500px;
+    padding-top: 2px;
+}
+body{
+    background: url(./img/asm.webp) ;
+    /* background-size:;  */
+    /* background-size: 1090px 950px; */
+}
+
+.container{
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid; */
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: rgb(255, 255, 255);
+    padding: 0.6rem 0 0.6rem 0;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid;
+    border-radius: 30px;
+
+
+}
+h2{
+    color: rgb(255, 255, 255);
+    border-radius: 9px;
+    background: rgba(105, 105, 105, 0.562);
+}
+span, img{
+    color: red;
+}
+span{
+    padding-top: 0.5rem;
+}
+a{
+    text-decoration: none;
+
+    color: rgb(255, 255, 255);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    position: relative;
+    left: 1rem;
+    
+
+}
+img {
+    margin: auto;
+    width: 2rem;
+    position: relative;
+    padding-right: 7rem;
+    opacity: 0;
+    display: none;
+}
+.lt{
+    margin: auto;
+    padding-right: 4rem; 
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600; 
+
+    
+}
+.container2 a {
+    border: 1px dotted;
+    padding: 0.7rem 0.7rem 0.5rem 0.7rem;
+    background: rgba(8, 8, 8, 0.555);
+    border-radius: 10px;
+    color: rgb(57, 197, 158);
+    font-size: 1.2rem;
+
+}
+.container2 a:hover{
+    background: rgb(43, 42, 42);
+    border: dotted 2px;
+    color: rgb(255, 255, 255);
+}
+
+
+.logoCont img{
+    margin: auto;
+    width: 90%;
+    position: relative;
+    padding-left: 2rem;
+    opacity: 1;
+    display: flex;
+
+}
